@@ -261,7 +261,7 @@ a {
 
 .vak2{
     display: flex;
-    
+    margin-bottom: 150px;
 }
 
 .vak2>div>h2{
@@ -291,4 +291,88 @@ a {
     width: 800px;
     margin-top: 60px;
     margin-left: 30px;
+}
+
+.inhoud2>h2{
+    color: #EBD3AD;
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.inhoud2-p{
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.offerte{    
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.offerte>h2{
+    color: #EBD3AD;
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.offerte>p{
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.offerte-back{
+    background-color: #f6f5f4;
+    width: 100%;
+}
+
+.offerte-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid #D8D8D8 2px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.offerte-button:hover{
+    background-color: #EBD3AD;
+    color: #f2f2f2;
+    border: none;
+    box-shadow: 4px 4px;
+}
+
+.footer-back{
+    background-color: #EBD3AD;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EBD3AD;
 }
