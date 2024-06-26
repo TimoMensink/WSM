@@ -12,6 +12,17 @@ body {
     background-color: #F7F7F7;
 }
 
+.background {
+    background-color: none;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
