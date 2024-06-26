@@ -14,13 +14,37 @@ body {
 
 .background {
     background-color: none;
-    background-image: url("../img/background.jpg");
+    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100px;
+    height: 400px;
     width: 100%;
+}
+
+.background>h2{
+    color: #f2f2f2;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.background>p{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container {
