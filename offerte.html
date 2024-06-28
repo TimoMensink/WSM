@@ -41,6 +41,30 @@
             </div>
         </div>
     </nav>
+    <form class="container" action="">
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefoonnummer">Telefoonnummer:</label>
+        <input type="tel" id="telefoonnummer" name="telefoonnummer" required><br>
+        <label for="klus">Klus:</label>
+        <select name="klus" id="klus">
+            <option value="trap">Trap</option>
+            <option value="laminaat">Laminaat</option>
+            <option value="pvc">Pvc</option>
+            <option value="tapijt">Tapijt</option>
+        </select><br>
+        <label for="oppervlak">Hoeveel m2: </label>
+        <input type="number" id="oppervlak" name="oppervlak" required>
+        <br>
+        <label for="bericht">Wilt u nog wat kwijt?:</label><br>
+        <textarea name="bericht" id="bericht" cols="30" rows="5" required></textarea>
+        <br>
+        <input type="submit" value="Verstuur">
+    </form>
     
 </body>
 </html>
