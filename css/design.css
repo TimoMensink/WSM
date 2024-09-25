@@ -463,25 +463,29 @@ input[type="submit"]:hover {
     padding-left: 15px;
 }
 
-.port-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
+.port-buttons>img{
+    width: 250px;
+    height: 110px;  
+    border-radius: 15px;
 }
 
-.port-item>h3{
-    font-size: 30px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    border-left: solid #EBD3AD 4px;    
-    padding-left: 15px;
-    margin-bottom: 20px;
+.port-buttons{
+background: none;
+border: none;
+outline: none;
 }
-.port-item>p{
-    font-size: 20px;
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+
+.port-buttons:active{
+    
+}
+
+.button-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 205px;
+    gap: 20px;
+    
 }
