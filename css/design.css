@@ -375,6 +375,7 @@ a {
     padding-top: 70px;
     padding-bottom: 60px;
     background-color: #EBD3AD;
+    align-items: flex-start;
 }
 
 .footer-image{
@@ -446,7 +447,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #EBD3AD;
-    box-shadow: lightgrey 2px 2px;
+    
 }
 
 .port-form{   
@@ -476,7 +477,6 @@ outline: none;
 }
 
 .port-buttons:active{
-    
 }
 
 .button-flex{
@@ -484,8 +484,8 @@ outline: none;
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 40px;
     width: 205px;
-    gap: 20px;
+    gap: 40px;
     
 }
