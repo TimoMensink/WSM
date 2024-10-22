@@ -476,9 +476,6 @@ border: none;
 outline: none;
 }
 
-.port-buttons:active{
-}
-
 .button-flex{
     display: flex;
     justify-content: space-evenly;
@@ -487,5 +484,26 @@ outline: none;
     margin-left: 40px;
     width: 205px;
     gap: 40px;
-    
+}
+
+.port-items>h2{
+    color: black;
+    border-left: solid #EBD3AD 3px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.port-items>p{
+    color: black;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
