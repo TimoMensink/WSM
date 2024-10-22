@@ -26,3 +26,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var showForm = function(id){
+  document.getElementById(id).style.display = '';
+}
+
+function showContent(sectionId) {
+  
+  var sections = document.querySelectorAll('.port-items');
+  sections.forEach(function(section) {
+      section.style.display = 'none';
+  });
+
+  
+  document.getElementById(sectionId).style.display = 'block';
+}

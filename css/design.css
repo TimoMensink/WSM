@@ -23,7 +23,7 @@ body {
     width: 100%;
 }
 
-.background>h2{
+.background>h2 {
     color: #f2f2f2;
     font-size: 60px;
     font-family: "Bebas Neue", sans-serif;
@@ -35,7 +35,7 @@ body {
     padding-top: 130px;
 }
 
-.background>p{
+.background>p {
     color: #f2f2f2;
     font-size: 30px;
     font-family: "Fira Sans Condensed", sans-serif;
@@ -190,7 +190,7 @@ a {
     box-shadow: 4px 4px;
 }
 
-/* Caption text */ 
+/* Caption text */
 .text>h2 {
     color: #f2f2f2;
     font-size: 100px;
@@ -201,6 +201,7 @@ a {
     text-align: center;
     margin-bottom: 300px;
 }
+
 .text>p {
     color: #f2f2f2;
     font-size: 40px;
@@ -256,16 +257,16 @@ a {
 
 
 
-.vak1{
+.vak1 {
     display: flex;
 }
 
-.vak2{
+.vak2 {
     display: flex;
     margin-bottom: 150px;
 }
 
-.vak2>div>h2{
+.vak2>div>h2 {
     margin-top: 80px;
     margin-left: 50px;
     color: #EBD3AD;
@@ -275,26 +276,26 @@ a {
     font-style: normal;
 }
 
-.vak2>div>p{
+.vak2>div>p {
     margin-top: 20px;
     margin-left: 50px;
     width: 200px;
     font-size: 25px;
 }
 
-.vloer-3{
+.vloer-3 {
     width: 350px;
     height: auto;
     margin-left: 150px;
 }
 
-.trap-2{
+.trap-2 {
     width: 800px;
     margin-top: 60px;
     margin-left: 30px;
 }
 
-.inhoud2>h2{
+.inhoud2>h2 {
     color: #EBD3AD;
     font-size: 50px;
     margin-top: 50px;
@@ -303,7 +304,7 @@ a {
     font-style: normal;
 }
 
-.inhoud2-p{
+.inhoud2-p {
     display: flex;
     width: 1000px;
     margin-top: 20px;
@@ -315,12 +316,12 @@ a {
 
 }
 
-.offerte{    
+.offerte {
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
-.offerte>h2{
+.offerte>h2 {
     color: #EBD3AD;
     font-size: 50px;
     margin-top: 50px;
@@ -329,7 +330,7 @@ a {
     font-style: normal;
 }
 
-.offerte>p{
+.offerte>p {
     display: flex;
     width: 1000px;
     margin-top: 20px;
@@ -340,12 +341,12 @@ a {
     font-style: normal;
 }
 
-.offerte-back{
+.offerte-back {
     background-color: #f2f2f2;
     width: 100%;
 }
 
-.offerte-button{
+.offerte-button {
     width: 150px;
     height: 50px;
     border-radius: 30px;
@@ -357,19 +358,19 @@ a {
     font-style: normal;
 }
 
-.offerte-button:hover{
+.offerte-button:hover {
     /* background-color: #EBD3AD; */
     color: #EBD3AD;
     border: none;
     box-shadow: 4px 4px;
 }
 
-.footer-back{
+.footer-back {
     background-color: #EBD3AD;
     width: 100%;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
@@ -378,19 +379,19 @@ a {
     align-items: flex-start;
 }
 
-.footer-image{
+.footer-image {
     width: 200px;
     height: auto;
 }
 
-.footer-content1>h3{
+.footer-content1>h3 {
     font-size: 50px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
-.footer-content1>p{
+.footer-content1>p {
     font-size: 25px;
     color: #F7F7F7;
     font-family: "Fira Sans Condensed", sans-serif;
@@ -447,16 +448,17 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #EBD3AD;
-    
+
 }
 
-.port-form{   
+.port-form {
     background-color: #f2f2f2;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding-top: 20px;
+    height: 700px;
 }
 
-.port-form>h1{
+.port-form>h1 {
     color: black;
     border-left: solid #EBD3AD 4px;
     margin-left: 15px;
@@ -464,29 +466,35 @@ input[type="submit"]:hover {
     padding-left: 15px;
 }
 
-.port-buttons>img{
-    width: 250px;
-    height: 110px;  
-    border-radius: 15px;
+.port-buttons {
+    background: none;
+    border: none;
+    outline: none;
+    border: solid black 1px;
+    width: 150px;
+    height: 50px;
 }
 
-.port-buttons{
-background: none;
-border: none;
-outline: none;
-}
-
-.button-flex{
+.button-flex {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 40px;
-    width: 205px;
+    width: 1100px;
     gap: 40px;
+    justify-content: center;
 }
 
-.port-items>h2{
+.port-items{
+    display: none;
+}
+
+#section1{
+    display: block;
+}
+
+.port-items h2 {
     color: black;
     border-left: solid #EBD3AD 3px;
     margin-left: 15px;
@@ -498,7 +506,7 @@ outline: none;
     font-size: 30px;
 }
 
-.port-items>p{
+.port-items p {
     color: black;
     margin-left: 15px;
     margin-top: 10px;
